@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="../../stylesheets/global.css">
+
+    <script src="../scripts/user.js"></script>
+    
+</head>
+<body>
+    <h1>Register</h1>
+
+    <form>
+        <label for="username">Username</label>
+        <input type="text" placeholder="Username" name="username" id="username">
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        <label for="re_password">Repeat password</label>
+        <input type="password" name="re_password" id="re_password">
+        
+        <button type="button" onclick="handleRegister();">Register</button>
+    </form>
+
+    <br>
+    <a href="login.html">Already have an account?</a>
+</body>
+</html>

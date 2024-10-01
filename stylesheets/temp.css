@@ -5,3 +5,36 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+#log {
+    font-size: small;
+    
+    position: absolute;
+    left: 2em;
+    bottom: 2em;
+}
+
+#log > p {
+    margin: .2em;
+    color: rgb(173, 173, 173);
+}
+
+#cookie {
+    position: absolute;
+    top: 1em;
+
+    background-color: transparent;
+    color: var(--text-color);
+    border: none;
+
+    border-bottom: 1px solid var(--text-color);
+    padding: 3px;
+    transition: all linear .2s;
+}
+
+#cookie:hover {
+    background-color: rgba(255, 255, 255, 0.103);
+}
+#cookie:active {
+    background-color: rgba(255, 255, 255, 0.027);
+}
